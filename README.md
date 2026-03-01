@@ -7,8 +7,8 @@ It helps users manage expenses, track subscriptions, set monthly budgets, and an
 
 ## 🚀 Live Demo
 
-🔗 [Live App Link Here]  
-🔗 [GitHub Repo Link Here]
+🔗 https://spendwise-two-peach.vercel.app/  
+🔗 https://github.com/itstanmaykhandelwal/spendwise
 
 ---
 
