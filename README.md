@@ -1,16 +1,103 @@
-# React + Vite
+# 💸 SpendWise – Smart Expense & Subscription Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+SpendWise is a modern SaaS-style financial tracking application built with React.  
+It helps users manage expenses, track subscriptions, set monthly budgets, and analyze spending trends with a clean, animated UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## React Compiler
+🔗 [Live App Link Here]  
+🔗 [GitHub Repo Link Here]
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 📊 Dashboard
+- Animated statistics (Total, Monthly, Average)
+- Monthly budget tracker with dynamic progress bar
+- Upcoming subscription renewal alerts
+- Category breakdown (Pie Chart)
+- Expense trend visualization
+
+### 💰 Expense Management
+- Add, Edit, Delete expenses
+- Search with debounce
+- Category filter
+- Pagination
+- Zod validation with React Hook Form
+- Local storage persistence
+
+### 🔁 Subscription Tracking
+- Recurring billing logic (monthly/yearly)
+- Automatic next billing date calculation
+- Upcoming renewals detection (next 7 days)
+- Mark as Paid / Cancel subscription
+- Auto-update billing cycle logic
+
+### 📈 Analytics
+- Top spending category detection
+- Monthly comparison metrics
+- Derived financial insights
+- CSV export support
+
+### 🎨 UI & UX
+- Animated stat counters
+- Smooth page transitions
+- Framer Motion modal animations
+- Responsive layout
+- Dark / Light theme toggle
+- Loading skeletons
+- Premium glass UI styling
+
+---
+
+## 🧠 Technical Highlights
+
+- Advanced array transformations (map, filter, reduce, sort)
+- Derived state computation
+- Recurring billing date logic using Date API
+- Memoization for performance optimization
+- Zustand global state management
+- Persistent state with localStorage
+- Code splitting with React.lazy
+- SEO optimized metadata
+- Clean component architecture
+
+---
+
+## 🛠 Tech Stack
+
+- React (Vite)
+- Zustand
+- Tailwind CSS
+- Framer Motion
+- React Hook Form
+- Zod
+- Recharts
+- Lucide Icons
+
+---
+
+## 📂 Project Structure
+src/
+├── components/
+├── layouts/
+├── pages/
+├── store/
+├── hooks/
+└── App.jsx
+
+
+---
+
+## 🧪 Installation
+
+```bash
+git clone https://github.com/yourusername/spendwise.git
+cd spendwise
+npm install
+npm run dev
+
+npm run build
